@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*eliminar punto de lista desordenada*/
+/*ul {
+    list-style: none;
+}*/
+
+/*eliminar subrayado del menu de navegacion*/
+/*ul li a {
+    text-decoration: none;
+}*/
+
+/*alineacion menu de navegacion*/
+/*header div,
+header nav,
+.listaMenu li {
+    display: inline-block;
+}
+
+
+/*lista de nav anclada*/
+/*.listaMenu {
+    position: fixed;
+    right: 100px;
+    top: 30px;
+}*/
+
+/*estilos para lista de navegacion*/
+/*.listaMenu a:hover {
+    background: chocolate;
+    transition: 0.5m;
+    color: black;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}*/
+
+/*centrar menu con imagen del logo*/
+/*header div img {
+    vertical-align: middle;
+}*/
+
+
+/*estilos y fuente de font family body*/
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: chocolate;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220522/pngtree-celebration-party-banner-with-gold-balloons-clear-white-transparent-background-image_1386604.jpg);
+}
+
+/*class h1 */
+h1 {
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+    background-color: chocolate;
+    padding: 20px 1px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*Tamaño imagen index*/
+.imagenHome {
+    width: 900px;
+    height: 400px;
+}
+
+/*responsive  pagina Nosotros*/
+.container {
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.imagenNos {
+    width: 90%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+}
+
+/*logo whatsapp fijo en los html*/
+.whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    padding: 2px;
+    border: 5px;
+    margin: 5px;
+    display: flex;
+    z-index: 1;
+}
+
+/*carousel*/
+.slide{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px ;
+}
+.slide img{
+    height: 70vh;
+    
+}
+/*nav*/
+.navbar-brand{
+    color: green;
+    text-decoration: overline;
+}
+.nav-link{
+    color: green;
+    text-decoration: overline;
+}
+
