@@ -1,64 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');*/
 
-* {
+/** {
     border: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/*eliminar punto de lista desordenada*/
-/*ul {
-    list-style: none;
 }*/
-
-/*eliminar subrayado del menu de navegacion*/
-/*ul li a {
-    text-decoration: none;
-}*/
-
-/*alineacion menu de navegacion*/
-/*header div,
-header nav,
-.listaMenu li {
-    display: inline-block;
-}
-
-
-/*lista de nav anclada*/
-/*.listaMenu {
-    position: fixed;
-    right: 100px;
-    top: 30px;
-}*/
-
-/*estilos para lista de navegacion*/
-/*.listaMenu a:hover {
-    background: chocolate;
-    transition: 0.5m;
-    color: black;
-    padding: 5px 5px;
-    border: 1px solid black;
-    border-radius: 10px;
-}*/
-
-/*centrar menu con imagen del logo*/
-/*header div img {
-    vertical-align: middle;
-}*/
-
 
 /*estilos y fuente de font family body*/
-body {
+/*body {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     color: chocolate;
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220522/pngtree-celebration-party-banner-with-gold-balloons-clear-white-transparent-background-image_1386604.jpg);
-}
+}*/
 
 /*class h1 */
-h1 {
+/*h1 {
     color: green;
     text-decoration: underline;
     text-align: center;
@@ -67,67 +26,69 @@ h1 {
     border: 1px solid black;
     margin: 20px;
     border-radius: 10px;
-}
+}*/
 /*class h5*/
-h5{
+/*h5{
     color: chocolate;
     font-family: cursive;
-}
+}*/
 
 /*Tamaño imagen index*/
-.imagenHome {
+/*.imagenHome {
     width: 900px;
     height: 400px;
 }
-
+*/
 /*responsive  html*/
-.container {
+/*.container {
     width: 90vw;
     max-width: 1000px;
     min-width: 320px;
     margin: auto;
 }
-
-.imagenNos {
+*/
+/*.imagenNos {
     width: 90%;
     max-width: 1000px;
     min-width: 320px;
     margin: auto;
     text-align: center;
 }
-
+*/
 /*carousel*/
-.slide{
+/*.slide {
     margin: 10px 80px;
 }
-.slide img{
+
+.slide img {
     height: 70vh;
-    
-}
+
+}*/
+
 /*nav*/
-.navbar-brand, .nav-link{
+/*.navbar-brand, .nav-link{
     color: green;
     text-decoration: overline;
-}
+}*/
 
 /*footer*/
-footer li{
+/*footer li {
     list-style-type: none;
 }
 
-.irArriba{
+.irArriba {
     font-family: 'Times New Roman', Times, serif;
     color: blue;
     text-decoration: underline;
     background-color: rgba(210, 105, 30, 0.507);
 }
 
-.faceaco{
+.faceaco {
     margin: 10px 0px;
-}
+}*/
 
 /*logo whatsapp fijo en los html*/
-.whatsapp {
+/*.whatsapp {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -137,7 +98,4 @@ footer li{
     border: 5px;
     margin: 5px;
     z-index: 1;
-    }
-
-
-
+    }*/
