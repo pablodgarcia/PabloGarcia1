@@ -12,10 +12,14 @@ $backgroun-ppal: url(https://png.pngtree.com/thumb_back/fw800/background/2022052
 
 /*p*/
 $margin-p: 50px;
+$color-p: rgb(255, 115, 0);
+$text-align-p: center;
+
+
 
 
 /*h1*/
-$color-h1: rgb(128, 0, 0);
+$color-h1: chocolate;
 $text-decoration-h1: underline;
 $text-align-h1: center;
 $background-color-h1: chocolate;
@@ -24,6 +28,13 @@ $border-h1: 1px solid black;
 $margin-h1: 20px;
 $border-radius-h1: 10px;
 
+/*h2*/
+$margin-h2: 30px;
+$text-align-h2: center;
+
 /*h5*/
-$color-h5: chocolate;
-$font-family-h5: cursive;
+$color-h5: black;
+$font-family-h5: Arial, Helvetica, sans-serif;
+$text-align-h5: center;
+$font-size-h5: small;
+$margin-top-h5: 5px;

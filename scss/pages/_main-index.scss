@@ -2,8 +2,22 @@
 
 main{
     .imagenHome{
-        width: 900px;
-        height: 400px;
-    }
+        /*width: 900px;
+        height: 400px;*/
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 70%;
+            height: 80%;
+            border: 5px solid chocolate;
+            border-radius: 50px;
+        }
+        }
+        .videoContenedor{
+            display: flex;
+            justify-content: center;
+            margin-inline: 10px;
+        }
 }
 
