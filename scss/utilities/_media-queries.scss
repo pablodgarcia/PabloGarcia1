@@ -1,9 +1,19 @@
 @media (max-width: 600px) {
 
-    main .videoContenedor {
-        height: 100%;
-        margin: 50px;
+    /*imagen e iframe  de  index*/
+    main {
+        .imagenHome .imgIndex {
+            height: 40vh;
+        }
+
+        .videoContenedor {
+            height: 100%;
+            margin: 50px;
+        }
     }
+
+
+
 
     .whatsapp {
         position: fixed;
@@ -27,6 +37,34 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    /*imagen contacto*/
+    .imagenContacto img {
+        height: 35vh;
+    }
+    /*eventos*/
+
+    main {
+        .fiestasInf {
+    
+            display: flex;
+            flex-direction: column;
+            
+            img{
+                height: 35vh;
+                margin-right: 5px;
+                
+            }
+        }
+        .fiestasAdul{
+            display: flex;
+            flex-direction: column;
+            img{
+                height: 35vh;
+                margin-right: 5px;
+            }
+        }
     }
 
 

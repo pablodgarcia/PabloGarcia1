@@ -12,8 +12,9 @@ $backgroun-ppal: url(https://png.pngtree.com/thumb_back/fw800/background/2022052
 
 /*p*/
 $margin-p: 50px;
-$color-p: rgb(255, 115, 0);
+$color-p: #000000;
 $text-align-p: center;
+$font-size-p: large;
 
 
 
@@ -31,6 +32,19 @@ $border-radius-h1: 10px;
 /*h2*/
 $margin-h2: 30px;
 $text-align-h2: center;
+$color-h2: chocolate;
+
+
+/*h3*/
+$color-h3: chocolate;
+$background-color-h3: rgba(0, 128, 0, 0.363);
+$font-size-h3: x-large;
+$margin-inline-h3: 100px;
+$margin-block-h3: 30px;
+$text-align-h3: center;
+
+
+
 
 /*h5*/
 $color-h5: black;
@@ -38,3 +52,4 @@ $font-family-h5: Arial, Helvetica, sans-serif;
 $text-align-h5: center;
 $font-size-h5: small;
 $margin-top-h5: 5px;
+$background-color-h5: rgba(210, 105, 30, 0.219)

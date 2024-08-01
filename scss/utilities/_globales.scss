@@ -36,8 +36,18 @@ h1 {
 }
 /*variables globales h2*/
 h2{
+    color:$color-h2 ;
     margin: $margin-h2;
     text-align: $text-align-h2;
+}
+/*variables globales h3*/
+h3{
+    color:$color-h3;
+    background-color: $background-color-h3;
+    font-size: $font-size-h3;
+    margin-inline: $margin-inline-h3;
+    margin-block: $margin-block-h3;
+    text-align: $text-align-h3;
 }
 
 /*variables globales h5*/
@@ -47,6 +57,7 @@ h5 {
     text-align: $text-align-h5;
     font-size: $font-size-h5;
     margin-top: $margin-top-h5;
+    background-color: $background-color-h5;
 }
 /*variables globales p */
 
@@ -54,6 +65,7 @@ p{
     margin: $margin-p;
     color: $color-p;
     text-align: $text-align-p;
+    font-size: $font-size-p;
 
 
 }

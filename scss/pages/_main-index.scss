@@ -1,23 +1,23 @@
 /*main index*/
 
-main{
-    .imagenHome{
-        /*width: 900px;
-        height: 400px;*/
+main {
+    .imagenHome {
         display: flex;
         justify-content: center;
 
-        .imgIndex{
-            width: 70%;
-            height: 80%;
+        .imgIndex {
+            /*width: 70%;*/
+            height: 70vh
+                /*80%*/
+            ;
             border: 5px solid chocolate;
             border-radius: 50px;
         }
-        }
-        .videoContenedor{
-            display: flex;
-            justify-content: center;
-            margin-inline: 10px;
-        }
-}
+    }
 
+    .videoContenedor {
+        display: flex;
+        justify-content: center;
+        margin-inline: 10px;
+    }
+}
