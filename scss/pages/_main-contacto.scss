@@ -1,11 +1,17 @@
 /*main contacto*/
 
-main .imagenContacto{
-    img{
-        width: 70%;
+main {
+    img {
+        width: 7%;
+        border: 5px solid chocolate;
+        border-radius: 50px;
     }
-    .mapa{
+
+    .imagenContacto,
+    .mapa {
         display: flex;
         justify-content: center;
+        margin: 10px;
     }
-} 
+
+}
